@@ -1,0 +1,19 @@
+body {
+  background-color: #643DA7;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+#print {
+   border-style: dotted;
+   background-color: white;
+   font-family: 'Bangers', cursive;
+
+}
+div {
+  background-color: red;
+}
+img {
+   width: 90px;
+   height: 90px;
+   float: left;
+}
