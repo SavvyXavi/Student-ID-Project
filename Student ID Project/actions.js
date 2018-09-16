@@ -8,15 +8,15 @@ function idcard(){
     document.getElementById("postAddress").innerHTML = address;
 
   var age = parseInt(document.getElementById("years").value);
-  var PhoneNumber = parseInt(document.getElementById("phoneNumber").value);
+  var phoneNumber = parseInt(document.getElementById("phoneNumber").value);
   var numberArray = [];
-  numberArray.push("age","PhoneNumber")
-  for (var i=0; i<100; i++){
-    if( age <= 100){
-      document.getElementById("postAge").innerHTML = age;
+  numberArray.push(age, phoneNumber)
+  for (var i=0; i<numberArray.length; i++){
+    if( numberArray[i] <= 100){
+      document.getElementById("postAge").innerHTML = "Age: " + age;
     }
-    else if( numberArray > 100){
-      document.getElementById("postPhoneNumber").innerHTML = PhoneNumber;
+    else if( numberArray[i] > 100){
+      document.getElementById("postPhoneNumber").innerHTML = "Phone Number: " + PhoneNumber;
     }
 }
 };
