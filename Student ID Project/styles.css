@@ -8,11 +8,20 @@ body {
    background-color: white;
    font-family: 'Bangers', cursive;
    color: black;
-
+   margin: 5px;
+   overflow: hidden;
 }
+
+#postFullName {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2em;
+}
+
 div {
   background-color: red;
 }
+
 img {
    width: 90px;
    height: 90px;
